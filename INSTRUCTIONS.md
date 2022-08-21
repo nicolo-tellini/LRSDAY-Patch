@@ -1,4 +1,4 @@
- [**LRSDAY**](https://github.com/yjx1217/LRSDAY) performes chromosome-level end-to-end genome assembly and comprehensive annotations for *Saccharomyces* yeasts.</br>
+[**LRSDAY**](https://github.com/yjx1217/LRSDAY) performes chromosome-level end-to-end genome assembly and comprehensive annotations for *Saccharomyces* yeasts.</br>
 The instructions that follow help to meet the dependencies on Ubuntu OS for [**LRSDAY v.1.6**](https://github.com/yjx1217/LRSDAY/releases/tag/v1.6.0). </br>
 
 ### Download LRSDAY
@@ -84,3 +84,33 @@ virtualenv v15.1.0 or newer [U]
 wget [U]
 zlib and zlib-devel [U]
 ```
+
+### Installation
+
+run the command: 
+```
+bash installer_LRSDAY_UOS 
+```
+The installation time depends on the internet connection.
+
+### Verify the installation in a few steps:
+
+Move inside ```LRSDAY/soft/Err``` and run: 
+
+```
+grep Exit *
+```
+If you see ```Exit status 0``` you can move to the next step.
+
+```
+grep Error *
+grep error *
+grep ERROR *
+grep fatal *
+grep 'No such' *
+```
+If ```grep``` commands above return empty, you are ready to run **LRSDAY** tutorial from the manual!
+
+If ```grep``` commands return non-empty results, open an issue at https://github.com/nicolo-tellini/LRSDAY-UbuntuOS/issues with the copy-paste of the ```.err``` file.
+I am going to help you to fix the error.
+Please, quote the text with ```. 
