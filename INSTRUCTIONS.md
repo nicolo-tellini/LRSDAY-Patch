@@ -5,6 +5,8 @@ The instructions that follow help to meet the dependencies on Ubuntu OS for [**L
 
 After the download of [**LRSDAY**](https://github.com/yjx1217/LRSDAY) remove ```Project_Template``` and copy the content of **LRSDAY-UbuntuOS** inside LRSDAY folder.</br>
 
+——
+
 ### Step 1: PRE-installation
 
 In order to complete the installation of **LRSDAY** install the following packages:
