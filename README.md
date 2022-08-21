@@ -1,4 +1,7 @@
 # LRSDAY-UbuntuOS
+
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
 Patch for LRSDAY v1.6 for Ubuntu OS.
 
 ### This dir contains:
