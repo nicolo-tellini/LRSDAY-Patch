@@ -12,7 +12,7 @@ Patch for LRSDAY v1.6 for Ubuntu OS.
   <img src="https://github.com/nicolo-tellini/LRSDAY-UbuntuOS/blob/main/installer_patch_LRSDAY.jpg" />
 </p>
 
-### Committed
+### Commitment
 We are committed to monitor the link integrity of each software by means [**LICO**](https://github.com/nicolo-tellini/LICO)<sup>1</sup>, **monthly**.
 
 [1] Nicolò, T. (2022). LInk COntroller (LICO) (Version 1.0) [Computer software]. https://github.com/nicolo-tellini/LICO
