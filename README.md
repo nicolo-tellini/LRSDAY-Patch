@@ -1,4 +1,4 @@
-**LRSDAY** performes chromosome-level end-to-end genome assembly and comprehensive annotations for *Saccharomyces* yeasts. 
+**LRSDAY** performes chromosome-level end-to-end genome assembly and comprehensive annotations for *Saccharomyces* yeasts.</br>
 This dir contains an updated and simplified installation file that repair broken links and provide dependencies on Ubuntu OS for [LRSDAY](https://github.com/yjx1217/LRSDAY) v.1.6. </br>
 
 ### Ubuntu dependencies
