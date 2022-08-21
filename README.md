@@ -1,5 +1,5 @@
 # LRSDAY-UbuntuOS
-Patch for LRSDAY version for Ubuntu OS.
+Patch for LRSDAY v1.6 for Ubuntu OS.
 
 ### This dir contains:
  - ```installer_LRSDAY_UOS```: a redesigned installer that simplify the process of debugging,</br>
