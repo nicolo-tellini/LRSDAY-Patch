@@ -12,8 +12,10 @@ Patch for LRSDAY v1.6 for Ubuntu OS.
   <img src="https://github.com/nicolo-tellini/LRSDAY-UbuntuOS/blob/main/installer_patch_LRSDAY.jpg" />
 </p>
 
-### broken links monitoring:
-
-We monitor the link integrity **every month** by means [**LICO**](https://github.com/nicolo-tellini/LICO)<sup>1</sup>.
+### Committed
+We are committed to monitor the link integrity of each software by means [**LICO**](https://github.com/nicolo-tellini/LICO)<sup>1</sup>, **monthly**.
 
 [1] Nicolò, T. (2022). LInk COntroller (LICO) (Version 1.0) [Computer software]. https://github.com/nicolo-tellini/LICO
+
+### Disclaimer
+Following the instruction you are going to install packages with **superuser privileges**. **If you are NOT aware of what you are doing consult your system administrator/senior bio/informatician. This disclaimer exonerate the author from any secondary and unwanted damage/faillures that may occur to other pipleines/software as a result of the installation of this patch. No **superuser privileges** are required by ```installer_LRSDAY_UOS.sh```** 
