@@ -14,6 +14,6 @@ Patch for LRSDAY v1.6 for Ubuntu OS.
 
 ### How we monitro broken links:
 
-We monitor the link integrity **every month** by means [**LICO**](https://github.com/nicolo-tellini/LICO)<sup>1</sup>..
+We monitor the link integrity **every month** by means [**LICO**](https://github.com/nicolo-tellini/LICO)<sup>1</sup>.
 
 [1] Nicolò, T. (2022). LInk COntroller (LICO) (Version 1.0) [Computer software]. https://github.com/nicolo-tellini/LICO
