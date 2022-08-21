@@ -18,4 +18,7 @@ We are committed to monitor the link integrity of each software by means [**LICO
 [1] Nicolò, T. (2022). LInk COntroller (LICO) (Version 1.0) [Computer software]. https://github.com/nicolo-tellini/LICO
 
 ### Disclaimer
-Following the instruction you are going to install packages with **superuser privileges**. **If you are NOT aware of what you are doing consult your system administrator/senior bio/informatician. This disclaimer exonerate the author from any secondary and unwanted damage/faillures that may occur to other pipleines/software as a result of the installation of this patch. No **superuser privileges** are required by ```installer_LRSDAY_UOS.sh```** 
+Following the instruction you are going to install packages with **superuser privileges**.</br>
+**If you are NOT aware of what you are doing consult your system administrator/senior bio/informatician. </br>
+This disclaimer exonerate the author from any secondary and unwanted damage/faillures that may occur to other pipelines/software as a result of the installation of this patch. </br>
+NO superuser privileges are required by ```installer_LRSDAY_UOS.sh```**
