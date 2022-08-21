@@ -12,7 +12,7 @@ Patch for LRSDAY v1.6 for Ubuntu OS.
   <img src="https://github.com/nicolo-tellini/LRSDAY-UbuntuOS/blob/main/installer_patch_LRSDAY.jpg" />
 </p>
 
-### How we monitro broken links:
+### How we monitor broken links:
 
 We monitor the link integrity **every month** by means [**LICO**](https://github.com/nicolo-tellini/LICO)<sup>1</sup>.
 
