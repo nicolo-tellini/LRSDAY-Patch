@@ -1,10 +1,25 @@
 **LRSDAY** performes chromosome-level end-to-end genome assembly and comprehensive annotations for *Saccharomyces* yeasts.</br>
-This dir contains an updated and simplified installation file redesigned to simplify the process of debugging.
-The instructions provided help to meet the dependencies on Ubuntu OS for [LRSDAY](https://github.com/yjx1217/LRSDAY) v.1.6. </br>
+The instructions that follow help to meet the dependencies on Ubuntu OS for [LRSDAY](https://github.com/yjx1217/LRSDAY) v.1.6. </br>
+
+### This dir contains:
+
+♦ ```installer_LRSDAY_UOS```: an updated installation file redesigned to simplify the process of debugging,
+♦ ```soft```: a dir that contains individual installation scripts for the softaware as well as ```Log``` and ```Err``` files, 
+♦ ```Project_Template ```:  a dir that contains the scripts to run LRSDAY modules,
+♦ A READMEUOS.md with the instructions.
+
+!!! IMPORTANT: the scripts in ```Project_Template ``` do not change in the tasks; compared to the originals they only differ in:
+
+ - the paths to the software,
+ - the name of a few options and output files because of sotware updates.
+
+### Download LRSDAY
+
+After the download of [LRSDAY](https://github.com/yjx1217/LRSDAY) remove ```Project_Template ``` and copy the content of this dir inside LRSDAY folder.</br>
 
 ### Pre-installation
 
-In order to complete the installation of LRSDAY install the following packages:
+In order to complete the installation of **LRSDAY** install the following packages:
 
  ```
  sudo apt-get install libbio-perl-perl
