@@ -115,8 +115,12 @@ grep 'No such' *
 ```
 If ```grep``` commands above return empty, you are ready to run **LRSDAY** tutorial from the manual!
 
-If ```grep``` commands return non-empty results, open an issue at https://github.com/nicolo-tellini/LRSDAY-UbuntuOS/issues with the content of the ```install_*_.err``` file in which the error occurred.</br>
+——
+
+Step 4: Debugging and further help
+
+If ```grep``` commands return non-empty results, you need to solve the preblem. Feel free to open an issue at https://github.com/nicolo-tellini/LRSDAY-UbuntuOS/issues with the content of the ```install_*_.err``` file in which the error occurred.</br>
 
 I am going to help you to fix the error. I have already met it during the debugging, probably.</br>
 
-Please, quote the content of ```install_*_.err``` with ```. 
+Please, quote the content of ```install_*_.err``` with ```.
