@@ -2,16 +2,10 @@
 The instructions that follow help to meet the dependencies on Ubuntu OS for [LRSDAY](https://github.com/yjx1217/LRSDAY) v.1.6. </br>
 
 ### This dir contains:
-
-♦ ```installer_LRSDAY_UOS```: an updated installation file redesigned to simplify the process of debugging,
-♦ ```soft```: a dir that contains individual installation scripts for the softaware as well as ```Log``` and ```Err``` files, 
-♦ ```Project_Template ```:  a dir that contains the scripts to run LRSDAY modules,
-♦ A READMEUOS.md with the instructions.
-
-!!! IMPORTANT: the scripts in ```Project_Template ``` do not change in the tasks; compared to the originals they only differ in:
-
- - the paths to the software,
- - the name of a few options and output files because of sotware updates.
+ - ```installer_LRSDAY_UOS```: a redesigned installer that simplify the process of debugging,</br>
+ - ```soft```: a dir that contains individual installation scripts for the softaware and collects ```Log``` and ```Err``` files, </br>
+ - ```Project_Template ```:  a dir that contains the scripts to run LRSDAY modules,</br>
+ - A READMEUOS.md with the instructions.</br>
 
 ### Download LRSDAY
 
