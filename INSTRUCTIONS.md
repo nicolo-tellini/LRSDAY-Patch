@@ -90,7 +90,7 @@ zlib and zlib-devel [U]
 
 run the command: 
 ```
-bash installer_LRSDAY_UOS 
+bash installer_LRSDAY_UOS.sh
 ```
 The installation time depends on the internet connection.
 
