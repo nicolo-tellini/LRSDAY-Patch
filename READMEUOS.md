@@ -1,15 +1,15 @@
-**LRSDAY** performes chromosome-level end-to-end genome assembly and comprehensive annotations for *Saccharomyces* yeasts.</br>
-The instructions that follow help to meet the dependencies on Ubuntu OS for [LRSDAY](https://github.com/yjx1217/LRSDAY) v.1.6. </br>
+ [**LRSDAY**](https://github.com/yjx1217/LRSDAY) performes chromosome-level end-to-end genome assembly and comprehensive annotations for *Saccharomyces* yeasts.</br>
+The instructions that follow help to meet the dependencies on Ubuntu OS for [**LRSDAY v.1.6**](https://github.com/yjx1217/LRSDAY/releases/tag/v1.6.0). </br>
 
 ### This dir contains:
  - ```installer_LRSDAY_UOS```: a redesigned installer that simplify the process of debugging,</br>
  - ```soft```: a dir that contains individual installation scripts for the softaware and collects ```Log``` and ```Err``` files, </br>
- - ```Project_Template ```:  a dir that contains the scripts to run LRSDAY modules,</br>
+ - ```Project_Template```:  a dir that contains the scripts to run LRSDAY modules,</br>
  - A READMEUOS.md with the instructions.</br>
 
 ### Download LRSDAY
 
-After the download of [LRSDAY](https://github.com/yjx1217/LRSDAY) remove ```Project_Template ``` and copy the content of this dir inside LRSDAY folder.</br>
+After the download of [**LRSDAY**](https://github.com/yjx1217/LRSDAY) remove ```Project_Template``` and copy the content of **LRSDAY-UbuntuOS** inside LRSDAY folder.</br>
 
 ### Pre-installation
 
@@ -57,9 +57,9 @@ set java 8 as default:
 sudo update-alternatives --config java
 ```
 
-Type the number corresponding to ```java-8-openjdk-* ```; 
+type the number corresponding to ```java-8-openjdk-* ```.
 
-Test the change ``` java -version ``` this is the output:
+Test the change ``` java -version``` this is the output:
 
 ```
 openjdk version "1.8.0_302"
