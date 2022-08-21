@@ -6,3 +6,8 @@ Patch for LRSDAY v1.6 for Ubuntu OS.
  - ```soft```: a dir that contains individual installation scripts for the software and collects ```Log``` and ```Err``` files, </br>
  - ```Project_Template```: a dir that contains the scripts to run LRSDAY modules,</br>
  - ```INSTRUCTIONS.md```: a file with the instructions.</br>
+
+### How the installer acts: 
+<p align="center">
+  <img src="https://github.com/nicolo-tellini/LRSDAY-UbuntuOS/blob/main/installer_patch_LRSDAY.jpg" />
+</p>
