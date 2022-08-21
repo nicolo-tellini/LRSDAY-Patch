@@ -1,4 +1,5 @@
 [**LRSDAY**](https://github.com/yjx1217/LRSDAY) performes chromosome-level end-to-end genome assembly and comprehensive annotations for *Saccharomyces* yeasts.</br>
+</br>
 The instructions that follow help to meet the dependencies on Ubuntu OS for [**LRSDAY v.1.6**](https://github.com/yjx1217/LRSDAY/releases/tag/v1.6.0). </br>
 
 ### Download LRSDAY
@@ -93,14 +94,14 @@ bash installer_LRSDAY_UOS
 ```
 The installation time depends on the internet connection.
 
-### Verify the installation in a few steps:
+### Post-installation
 
 Move inside ```LRSDAY/soft/Err``` and run: 
 
 ```
 grep Exit *
 ```
-If you see ```Exit status 0``` you can move to the next step.
+If you see all ```Exit status 0``` you can move to the next step.
 
 ```
 grep Error *
