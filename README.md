@@ -48,4 +48,4 @@ OpenJDK Runtime Environment (build 1.8.0_302-8u302-b08-0ubuntu2-b08)
 OpenJDK 64-Bit Server VM (build 25.302-b08, mixed mode)
 ```
 
-In addition to that you have to meet the dependecies indicated in [prerequisites](https://github.com/yjx1217/LRSDAY/blob/master/prerequisite.txt)
+In addition to that you have to meet the dependecies indicated in [prerequisites](https://github.com/yjx1217/LRSDAY/blob/master/prerequisite.txt).
