@@ -6,7 +6,7 @@ The instructions that follow help to meet the dependencies on Ubuntu OS for [**L
 
 After the download of [**LRSDAY**](https://github.com/yjx1217/LRSDAY) remove ```Project_Template``` and copy the content of **LRSDAY-UbuntuOS** inside LRSDAY folder.</br>
 
-### Pre-installation
+### Step 1: PRE-installation
 
 In order to complete the installation of **LRSDAY** install the following packages:
 
@@ -62,10 +62,10 @@ OpenJDK Runtime Environment (build 1.8.0_302-8u302-b08-0ubuntu2-b08)
 OpenJDK 64-Bit Server VM (build 25.302-b08, mixed mode)
 ```
 
-In addition, you have to meet the dependecies indicated in [prerequisites](https://github.com/yjx1217/LRSDAY/blob/master/prerequisite.txt).
+In addition, you have to meet the dependecies indicated in [prerequisites](https://github.com/yjx1217/LRSDAY/blob/master/prerequisite.txt).</br>
+Sotware with [U] are already provided with the installation of Ubuntu. 
 
 ```
-# sotwares with [U] are already provided with the installation of Ubuntu. 
 bash [U]
 bzip2 and libbz2-dev [U]
 cmake v3.2 or newer [U]
@@ -85,8 +85,9 @@ virtualenv v15.1.0 or newer [U]
 wget [U]
 zlib and zlib-devel [U]
 ```
+——
 
-### Installation
+### Step 2: Installation
 
 run the command: 
 ```
@@ -94,7 +95,9 @@ bash installer_LRSDAY_UOS.sh
 ```
 The installation time depends on the internet connection.
 
-### Post-installation
+——
+
+### Step 3: POST-Installation
 
 Move inside ```LRSDAY/soft/Err``` and run: 
 
