@@ -2,9 +2,10 @@
 This dir contains an updated and simplified installation file redesigned to simplify the process of debugging.
 The instructions provided help to meet the dependencies on Ubuntu OS for [LRSDAY](https://github.com/yjx1217/LRSDAY) v.1.6. </br>
 
-### before running  ```installer_UbOS.sh```
+### Pre-installation
 
- Install the following packages : 
+In order to complete the installation of LRSDAY install the following packages:
+
  ```
  sudo apt-get install libbio-perl-perl
 ```
@@ -12,6 +13,7 @@ The instructions provided help to meet the dependencies on Ubuntu OS for [LRSDAY
 this will results in the installation of ```Bioperl```.
 
 A package required for **RepeatMasker**:
+
 ```
  sudo apt-get install libtext-soundex-perl
 ```
@@ -21,15 +23,15 @@ A package required for **cpanm**:
  sudo apt-get install libpq-dev
 ```
 
-To successfuly accomplish the first step of the installer be sure you have full persmissions of ```.cpan``` and ```.cpanm``` in ```$HOME```.
+Allow full persmissions of ```.cpan``` and ```.cpanm``` in ```$HOME``` for user and group :
 
-If it is not the case:  
 ```
  sudo chmod -R ug+rwx .cpan
  sudo chmod -R ug+rwx .cpanm
 ```
 
-The ```python3.8``` version for the installation of specific sotware:
+Install ```python3.8```:
+
 ```
  sudo apt-get install python3.8
 ```
@@ -56,7 +58,7 @@ OpenJDK Runtime Environment (build 1.8.0_302-8u302-b08-0ubuntu2-b08)
 OpenJDK 64-Bit Server VM (build 25.302-b08, mixed mode)
 ```
 
-In addition to that you have to meet the dependecies indicated in [prerequisites](https://github.com/yjx1217/LRSDAY/blob/master/prerequisite.txt).
+In addition, you have to meet the dependecies indicated in [prerequisites](https://github.com/yjx1217/LRSDAY/blob/master/prerequisite.txt).
 
 ```
 # sotwares with [U] are already provided with the installation of Ubuntu. 
@@ -79,4 +81,3 @@ virtualenv v15.1.0 or newer [U]
 wget [U]
 zlib and zlib-devel [U]
 ```
-
