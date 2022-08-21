@@ -53,7 +53,7 @@ sudo update-alternatives --config java
 
 type the number corresponding to ```java-8-openjdk-* ```.
 
-Test the change ``` java -version``` this is the output:
+runn ``` java -version``` to visualize the change:
 
 ```
 openjdk version "1.8.0_302"
