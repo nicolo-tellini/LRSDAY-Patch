@@ -1,5 +1,5 @@
-This is a revisited version of LRSDAY rewrote to simplify the installation process as well as meet dependencies on Ubuntu OS.
-
+This is a revisited version of [LRSDAY](https://github.com/yjx1217/LRSDAY) rewrote to simplify the installation process as well as meet dependencies on Ubuntu OS.
+LRSDAY performes chromosome-level end-to-end genome assembly and comprehensive annotations for *Saccharomyces* yeasts.
 ### Ubuntu dependencies
  
  Install the following packages : 
