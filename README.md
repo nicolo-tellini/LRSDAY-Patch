@@ -1,8 +1,9 @@
 **LRSDAY** performes chromosome-level end-to-end genome assembly and comprehensive annotations for *Saccharomyces* yeasts.</br>
-This dir contains an updated and simplified installation file that repair broken links and provide dependencies on Ubuntu OS for [LRSDAY](https://github.com/yjx1217/LRSDAY) v.1.6. </br>
+This dir contains an updated and simplified installation file redesigned to simplify the process of debugging.
+The instructions provided help to meet the dependencies on Ubuntu OS for [LRSDAY](https://github.com/yjx1217/LRSDAY) v.1.6. </br>
 
-### Ubuntu dependencies
- 
+### before running  ```installer_UbOS.sh```
+
  Install the following packages : 
  ```
  sudo apt-get install libbio-perl-perl
@@ -10,23 +11,30 @@ This dir contains an updated and simplified installation file that repair broken
 
 this will results in the installation of ```Bioperl```.
 
-
+A package required for **RepeatMasker**:
 ```
  sudo apt-get install libtext-soundex-perl
 ```
 
-
+A package required for **cpanm**:
 ```
  sudo apt-get install libpq-dev
 ```
 
+To successfuly accomplish the first step of the installer be sure you have full persmissions of ```.cpan``` and ```.cpanm``` in ```$HOME```.
 
+If it is not the case:  
+```
+ sudo chmod -R ug+rwx .cpan
+ sudo chmod -R ug+rwx .cpanm
+```
 
+The ```python3.8``` version for the installation of specific sotware:
 ```
  sudo apt-get install python3.8
 ```
 
-Install java 8: 
+Install ```java 8``` for **GATK3**: 
 
 ```
 sudo apt install openjdk-8-jdk
@@ -34,14 +42,13 @@ sudo apt install openjdk-8-jdk
 
 set java 8 as default: 
 
-
 ```
 sudo update-alternatives --config java
 ```
 
-Type the number corresponding to   ```java-8-openjdk-* ```; 
+Type the number corresponding to ```java-8-openjdk-* ```; 
 
-Test the change   ``` java -version ``` this is the output:
+Test the change ``` java -version ``` this is the output:
 
 ```
 openjdk version "1.8.0_302"
