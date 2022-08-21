@@ -22,7 +22,7 @@ We are committed to monitor the link integrity of each software by means [**LICO
 
 ### Citation 
 
-I am not going to ask you to "buymeacoffee". I need to sleep, no caffeine. But, if you use this patch cite this GitHub repo along with LRSDAY paper,please. Thank you very much!
+I am not going to ask you to "buymeacoffee". I need to sleep, no caffeine. But, if you use this patch cite this GitHub repo along with LRSDAY paper, please. Thank you very much!
 
 ### Disclaimer
 **FOLLOWING THE INSTRUCTION YOU ARE GOING TO INSTALL PACKAGES WITH SUPERUSER PRIVILEGES DUING THE PRE-INSTALLATION PROCESS. IF YOU ARE NOT AWARE OF WHAT YOU ARE DOING CONSULT EITHER YOUR SYSTEM ADMINISTRATOR OR SENIOR BIO/INFORMATICIAN. NO SUPERUSER PRIVILEGES ARE REQUIRED BY THE MAIN SOFTWARE INSTALLER.**
