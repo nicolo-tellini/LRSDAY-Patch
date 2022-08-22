@@ -70,7 +70,7 @@ Sotware with [U] are already provided with the installation of Ubuntu.
 bash [U]
 bzip2  [U] and libbz2-dev 
 cmake v3.2 or newer
-gcc and g++ v4.9.1 or newer [U]
+gcc [U] and g++ v4.9.1 [U] or newer 
 ghostscript [U]
 git 
 gnu make [U]
@@ -84,7 +84,7 @@ tar [U]
 unzip [U]
 virtualenv v15.1.0 or newer
 wget [U]
-zlib and zlib-dev
+zlib and zlib-dev (sudo apt install zlib1g zlib1g-dev)
 ```
 ——
 
