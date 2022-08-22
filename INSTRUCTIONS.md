@@ -8,7 +8,7 @@ After the download of [**LRSDAY**](https://github.com/yjx1217/LRSDAY) remove ```
 ——
 
 ### Step 1: PRE-installation
-
+The following dependecies have been tested on a virgin virtal copy of ubuntu 18.04. They represent the minimal, sufficient dependecies to successfully install the pipeline. 
 In order to complete the installation of **LRSDAY** install the following packages:
 
  ```
@@ -22,10 +22,21 @@ A package required for **RepeatMasker**:
 ```
  sudo apt-get install libtext-soundex-perl
 ```
-
 A package required for **cpanm**:
 ```
  sudo apt-get install libpq-dev
+```
+A package required for **bedtools2**:
+```
+ sudo apt-get install liblzma-dev
+```
+A package required for **samtools**:
+```
+ sudo apt-get install pkg-config
+```
+A package required for **marginpolish**:
+```
+sudo apt-get install libhdf5-openmpi-dev
 ```
 
 Install ```python3.8```:
