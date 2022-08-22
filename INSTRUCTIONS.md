@@ -68,7 +68,7 @@ Sotware with [U] are already provided with the installation of Ubuntu.
 
 ```
 bash [U]
-bzip2 and libbz2-dev 
+bzip2  [U] and libbz2-dev 
 cmake v3.2 or newer
 gcc and g++ v4.9.1 or newer [U]
 ghostscript [U]
