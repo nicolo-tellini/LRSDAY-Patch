@@ -36,7 +36,7 @@ A package required for **samtools**:
 ```
 A package required for **marginpolish**:
 ```
-sudo apt-get install libhdf5-openmpi-dev
+sudo apt-get install libhdf5-openmpi-dev autoconf
 ```
 
 Install ```python3.8```:
