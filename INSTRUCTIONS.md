@@ -68,23 +68,23 @@ Sotware with [U] are already provided with the installation of Ubuntu.
 
 ```
 bash [U]
-bzip2 and libbz2-dev [U]
-cmake v3.2 or newer [U]
+bzip2 and libbz2-dev 
+cmake v3.2 or newer
 gcc and g++ v4.9.1 or newer [U]
 ghostscript [U]
-git [U]
+git 
 gnu make [U]
 gzip [U]
 java runtime environment (JRE) v1.8.0 
-perl v5.12 or newer
-python v2.7.9 [U] 3.6 [U] 3.8 
-python-devel
-python3-devel
+perl v5.12 or newer [U]
+python v2.7 [U] 3.6 [U] 3.8 
+python-dev
+python3-dev
 tar [U]
 unzip [U]
-virtualenv v15.1.0 or newer [U]
+virtualenv v15.1.0 or newer
 wget [U]
-zlib and zlib-devel [U]
+zlib and zlib-dev
 ```
 ——
 
