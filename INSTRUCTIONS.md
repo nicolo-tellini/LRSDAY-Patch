@@ -28,13 +28,6 @@ A package required for **cpanm**:
  sudo apt-get install libpq-dev
 ```
 
-Allow full persmissions of ```.cpan``` and ```.cpanm``` in ```$HOME``` for user and group :
-
-```
- sudo chmod -R ug+rwx .cpan
- sudo chmod -R ug+rwx .cpanm
-```
-
 Install ```python3.8```:
 
 ```
