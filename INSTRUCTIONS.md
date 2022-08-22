@@ -115,8 +115,6 @@ If you see all ```Exit status 0``` you can move to the next step.
 grep Error *
 grep error *
 grep ERROR *
-grep fatal *
-grep 'No such' *
 ```
 If ```grep``` commands above return empty, you are ready to run **LRSDAY** tutorial from the manual!
 
