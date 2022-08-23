@@ -33,7 +33,7 @@ Patch for LRSDAY v1.6 for Ubuntu OS.
 
 ### Citation 
 
-:page_facing_up: Please, if you use this patch cite this GitHub repo along with LRSDAY paper ([Yue JX,Liti G,*Nat Protoc*,2018](https://www.nature.com/articles/nprot.2018.025)).
+:page_facing_up: Please, if you use this patch cite this GitHub repo along with LRSDAY paper ([Yue JX, Liti G, *Nat Protoc*,2018](https://www.nature.com/articles/nprot.2018.025)).
 Thank you very much!
 
 ### Disclaimer
