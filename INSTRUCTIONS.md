@@ -122,4 +122,4 @@ If ```grep``` commands above return empty, you are ready to run **LRSDAY** tutor
 
 ### Step 4: Debugging and further help
 
-If ```grep``` commands return non-empty results, you need to solve the problem. Feel free to open an issue at https://github.com/nicolo-tellini/LRSDAY-UbuntuOS/issues with the content of the ```install_*_.err``` file in which the error occurred. I am going to help you to fix the error as I have already met the error during the debugging, probably. Don't forget, also Google is a good helper. 
+If ```grep``` commands return non-empty results, you got an error and we have to fix it. Feel free to open an issue at https://github.com/nicolo-tellini/LRSDAY-UbuntuOS/issues with the content of the ```install_*_.err``` file in which the error occurred. I am going to help you to fix the error as I have already met the error during the debugging, probably.
