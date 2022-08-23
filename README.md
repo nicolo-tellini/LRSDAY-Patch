@@ -35,7 +35,7 @@ How the *new* installer acts:
 
 ### Citation 
 
-:page_facing_up: Please, if you use this patch cite this GitHub repo along with LRSDAY paper ([Yue JX, Liti G, *Nat Protoc*, 2018](https://www.nature.com/articles/nprot.2018.025)).
+:page_facing_up: Please, if you use this patch cite this GitHub repo along with [LRSDAY](https://github.com/yjx1217/LRSDAY#citations).
 Thank you very much!
 
 ### Disclaimer
