@@ -22,7 +22,7 @@ We are committed to monitor the link integrity of each software by means [**LICO
 
 ### Citation 
 
-Please, if you use this patch cite this GitHub repo along with LRSDAY paper: [Yue JX.,Liti G.,*Nat Protoc*,2018](https://www.nature.com/articles/nprot.2018.025)).
+Please, if you use this patch cite this GitHub repo along with LRSDAY paper: [Yue JX.,Liti G.,*Nat Protoc*,2018](https://www.nature.com/articles/nprot.2018.025).
 Thank you very much!
 
 ### Disclaimer
