@@ -22,6 +22,8 @@ Patch for LRSDAY v1.6 for Ubuntu OS.
 
 ### Installer
 
+The concept behind the :new: installer :
+
 <p align="center">
   <img src="https://github.com/nicolo-tellini/LRSDAY-UbuntuOS/blob/main/installer_patch_LRSDAY.jpg" />
 </p>
