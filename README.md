@@ -4,7 +4,9 @@
 
 Patch for LRSDAY v1.6 for Ubuntu OS.
 
-### Dir content
+### Content
+:open_file_folder: :
+
  - ```installer_LRSDAY_UOS.sh```: a redesigned installer that simplify the process of debugging,</br>
  - ```soft```: a dir that contains individual installation scripts for the software and collects ```Log``` and ```Err``` files, </br>
  - ```Project_Template```: a dir that contains the scripts to run LRSDAY modules <sup>[note]</sup>,</br>
@@ -18,21 +20,20 @@ Patch for LRSDAY v1.6 for Ubuntu OS.
 - ```LICENSE.md```: the license,
 - ```CITATION.cff```: the citation info.
 
+### Installer
 
-
-### How the installer acts: 
 <p align="center">
   <img src="https://github.com/nicolo-tellini/LRSDAY-UbuntuOS/blob/main/installer_patch_LRSDAY.jpg" />
 </p>
 
 ### Commitment
-We are committed to monitor the link integrity of each software by means [**LICO**](https://github.com/nicolo-tellini/LICO)<sup>1</sup>, **monthly**.
+:heavy_check_mark: We are committed to monitor the link integrity of each software by means [**LICO**](https://github.com/nicolo-tellini/LICO)<sup>1</sup>, **monthly**.
 
 [1] Nicolò, T. (2022). LInk COntroller (LICO) (Version 1.0) [Computer software]. https://github.com/nicolo-tellini/LICO
 
 ### Citation 
 
-Please, if you use this patch cite this GitHub repo along with LRSDAY paper ([Yue JX,Liti G,*Nat Protoc*,2018](https://www.nature.com/articles/nprot.2018.025)).
+:page_facing_up: Please, if you use this patch cite this GitHub repo along with LRSDAY paper ([Yue JX,Liti G,*Nat Protoc*,2018](https://www.nature.com/articles/nprot.2018.025)).
 Thank you very much!
 
 ### Disclaimer
