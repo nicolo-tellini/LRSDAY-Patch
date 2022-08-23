@@ -599,7 +599,7 @@ printf '████████████████████████
 if [ $SNAP == "yes" ]
 then
 
-SNAP_DOWNLOAD_URL="https://github.com/KorfLab/SNAP"
+SNAP_DOWNLOAD_URL="https://github.com/KorfLab/SNAP.git"
 SNAP_GITHUB_COMMIT_VERSION="a89d68e"
 
 /usr/bin/time -v bash ${LRSDAY_HOME}/soft/install_snap.sh ${SNAP_DOWNLOAD_URL} ${SNAP_GITHUB_COMMIT_VERSION} > ${LRSDAY_HOME}/soft/Log/install_snap.log 2> ${LRSDAY_HOME}/soft/Err/install_snap.err
@@ -1041,7 +1041,7 @@ if [ $MAKER == "yes" ]
 then
 
 MAKER_VERSION="3.01.02"
-MAKER_DOWNLOAD_URL=https://github.com/Yandell-Lab/maker/archive/refs/tags/Version_${MAKER_VERSION}_r1162.tar.gz
+MAKER_DOWNLOAD_URL="https://github.com/Yandell-Lab/maker/archive/refs/tags/Version_${MAKER_VERSION}_r1162.tar.gz"
 
 /usr/bin/time -v bash ${LRSDAY_HOME}/soft/install_maker.sh ${MAKER_VERSION} ${MAKER_DOWNLOAD_URL} > ${LRSDAY_HOME}/soft/Log/install_maker.log 2> ${LRSDAY_HOME}/soft/Err/install_maker.err
 
