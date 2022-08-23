@@ -34,7 +34,7 @@ A package required for **samtools**:
 ```
  sudo apt-get install pkg-config
 ```
-A package required for **marginpolish**:
+Packages required for **marginpolish**:
 ```
 sudo apt-get install libhdf5-openmpi-dev autoconf libhdf5-dev
 ```
