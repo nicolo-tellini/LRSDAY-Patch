@@ -10,7 +10,7 @@ Patch for LRSDAY v1.6 for Ubuntu OS.
  - ```Project_Template```: a dir that contains the scripts to run LRSDAY modules <sup>[note]</sup>,</br>
  - ```INSTRUCTIONS.md```: a file with the instructions.</br>
 
-<sup>[note]</sup> the scripts do not significatly change in the content. Only paths and options/function names have been adjusted to meet the requirements of both up and downgraded software. 
+<sup>[note]</sup> the scripts do not significatly change in the content. Only paths and option/function names have been adjusted to meet the requirements of both up and downgraded software. 
  
  Other files:
 - ```SOFTWARECHANGES.md```: a list of up/downgraded software,
