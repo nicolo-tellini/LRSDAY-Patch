@@ -1,8 +1,9 @@
-# LRSDAY-UbuntuOS
+# LRSDAY-Debian-basedOS
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-Patch for LRSDAY v1.6 for Ubuntu OS.
+Patch for LRSDAY v1.6 for Debian-based OS.
+The debugging was performed with **Ubuntu 18.04**.
 
 ### Content
 :open_file_folder: :
