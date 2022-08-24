@@ -986,7 +986,7 @@ fi
 if [ $GATK == "yes" ]
 then
 
-GATK_DOWNLOAD_URL="https://storage.googleapis.com/gatk-software/package-archive/gatk/GenomeAnalysisTK-3.0-0-g6bad1c6.tar.bz2"
+GATK_DOWNLOAD_URL="https://storage.googleapis.com/gatk-software/package-archive/gatk/GenomeAnalysisTK-3.2-2-gec30cee.tar.bz2"
 
 /usr/bin/time -v bash ${LRSDAY_HOME}/soft/install_gatk3.sh ${GATK_DOWNLOAD_URL} > ${LRSDAY_HOME}/soft/Log/install_gatk3.log 2> ${LRSDAY_HOME}/soft/Err/install_gatk3.err
 
