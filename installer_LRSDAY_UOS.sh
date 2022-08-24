@@ -284,7 +284,7 @@ if [ $SMARTDENOVO == "yes" ]
 then
 
 SMARTDENOVO_GITHUB_COMMIT_VERSION="5cc1356" 
-SMARTDENOVO_DOWNLOAD_URL="https://github.com/ruanjue/smartdenovo"
+SMARTDENOVO_DOWNLOAD_URL="https://github.com/ruanjue/smartdenovo.git"
 
 
 /usr/bin/time -v bash ${LRSDAY_HOME}/soft/install_smartdenovo.sh ${SMARTDENOVO_DOWNLOAD_URL} ${SMARTDENOVO_GITHUB_COMMIT_VERSION} > ${LRSDAY_HOME}/soft/Log/install_smartdenovo.log 2> ${LRSDAY_HOME}/soft/Err/install_smartdenovo.err
@@ -599,7 +599,7 @@ printf '████████████████████████
 if [ $SNAP == "yes" ]
 then
 
-SNAP_DOWNLOAD_URL="https://github.com/KorfLab/SNAP.git"
+SNAP_DOWNLOAD_URL="https://github.com/KorfLab/SNAP"
 SNAP_GITHUB_COMMIT_VERSION="a89d68e"
 
 /usr/bin/time -v bash ${LRSDAY_HOME}/soft/install_snap.sh ${SNAP_DOWNLOAD_URL} ${SNAP_GITHUB_COMMIT_VERSION} > ${LRSDAY_HOME}/soft/Log/install_snap.log 2> ${LRSDAY_HOME}/soft/Err/install_snap.err
