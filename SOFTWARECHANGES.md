@@ -6,3 +6,4 @@
 :arrow_down_small: **gnuplot** from v.5.4.0 to v.5.2.2<br/>
 :arrow_down_small: **GATK** from v3.6-6 to v3.0-0<br/>
 :arrow_up: **maker** from v.3.00.0-beta to v.3.01.02
+:arrow_down_small: **GATK3** from v3.6-6 to v3.2-2
