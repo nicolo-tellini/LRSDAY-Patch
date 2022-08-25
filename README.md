@@ -36,6 +36,8 @@ How the *new* installer acts:
 
 [1] Nicolò, T. (2022). LInk COntroller (LICO) (Version 1.0) [Computer software]. https://github.com/nicolo-tellini/LICO
 
+:heavy_check_mark: We have been testing LRSDAY on Fedora 36 (RedHat) and OpenSUSE Leap 15.3 (SUSE).
+
 ### Citation 
 
 :page_facing_up: Please, if you use this patch cite this GitHub repo along with [LRSDAY](https://github.com/yjx1217/LRSDAY#citations).
