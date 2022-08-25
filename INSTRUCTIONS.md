@@ -3,7 +3,7 @@ The instructions that follow help to meet the dependencies on Debian-based OS fo
 
 ### Step 0: Download LRSDAY
 
-After the download of [**LRSDAY**](https://github.com/yjx1217/LRSDAY) remove ```Project_Template``` and copy the content of **LRSDAY-UbuntuOS** inside LRSDAY folder.</br>
+After the download of [**LRSDAY**](https://github.com/yjx1217/LRSDAY) remove ```Project_Template``` and copy the content of **LRSDAY-Debian-based-OS** inside LRSDAY folder.</br>
 
 ——
 
@@ -98,7 +98,7 @@ run the command:
 ```
 bash installer_LRSDAY_UOS.sh
 ```
-The installation time depends on the internet connection.
+By default, you are going to install all the software listed at the beginning of the installer (suggested if you are not familiar with the pipeline). This behavior can be modified based on errors that may occur along the process. Hence, if you need to repeat the installattion for a group of software, you can change the variable to all the others to "no". The installation time depends on the internet connection and varies between 30 and 50/55 min.
 
 ——
 
@@ -109,17 +109,17 @@ Move inside ```LRSDAY/soft/Err``` and run:
 ```
 grep Exit *
 ```
-If you see all ```Exit status 0``` you can move to the next step.
+If you see ```Exit status 0``` you can move to the next step.
 
 ```
 grep Error *
 grep error *
 grep ERROR *
 ```
-If ```grep``` commands above return empty, you are ready to run **LRSDAY** tutorial from the manual!
+If ```grep``` commands return empty, you are ready to run **LRSDAY** tutorial from the manual!
 
 ——
 
 ### Step 4: Debugging and further help
 
-If ```grep``` commands return non-empty results, you got an error and we have to fix it. Feel free to open an issue at https://github.com/nicolo-tellini/LRSDAY-UbuntuOS/issues with the content of the ```install_*_.err``` file in which the error occurred. I am going to help you to fix the error as I have already met the error during the debugging, probably.
+If ```grep``` commands return non-empty results, you got an error and we have to fix it. Feel free to open an issue at https://github.com/nicolo-tellini/LRSDAY-UbuntuOS/issues with the content of the ```install_*_.err``` file in which the error occurred. I am going to help you to fix the error.
