@@ -1113,7 +1113,7 @@ echo "If wishing to license MAKER for commercial use, please contact Aaron Duffy
 echo ""
 echo "5) RepeatMasker need manual configuration."
 echo "Please refer to our latest LRSDAY Manual for proper configuration of RepeatMasker."
-echo "When making configuration for RepeatMasker, please use $trf_dir for configuring TRF and use $rmblast_dir for configuring rmblast."
+echo "When making configuration for RepeatMasker, please use \$trf_dir for configuring TRF and use \$rmblast_dir for configuring rmblast."
 echo ""
 echo "6) The RepeatMasker dependency library Repbase (https://www.girinst.org/repbase/) will be switched to subscription-based model soon. Please consider subscribing this library for keeping up with the latest version of their product."
 echo ""
