@@ -4,7 +4,6 @@
 :arrow_up: **medaka** from v1.2.0 to v1.5.0<br/>
 :arrow_up: **mummer** from v4.0.0beta2 to v4.0.0beta5<br/>
 :arrow_down_small: **gnuplot** from v.5.4.0 to v.5.2.2<br/>
-:arrow_down_small: **GATK** from v3.6-6 to v3.0-0<br/>
 :arrow_up: **maker** from v.3.00.0-beta to v.3.01.02<br/>
 :arrow_down_small: **GATK3** from v3.6-6 to v3.2-2<br/>
 Please, see the installer for **nanopolish**.
