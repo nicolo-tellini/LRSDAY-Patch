@@ -8,7 +8,7 @@ After the download of [**LRSDAY**](https://github.com/yjx1217/LRSDAY) remove ```
 ——
 
 ### Step 1: PRE-installation
-The following dependecies have been tested on a virgin virtal copy of Ubuntu 18.04. They represent the minimal, sufficient dependecies to successfully install the pipeline. 
+The following dependecies have been tested on a virgin virtual copy of Ubuntu 18.04. They represent the minimum indispensable dependecies to successfully install the pipeline. 
 In order to complete the installation of **LRSDAY** install the following packages:
 
  ```
