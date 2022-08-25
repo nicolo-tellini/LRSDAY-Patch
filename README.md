@@ -32,6 +32,8 @@ How the *new* installer acts:
 </p>
 
 ### Commitment
+:heavy_check_mark: We are reaching out @jts for fixing nanopolish failures.
+
 :heavy_check_mark: We monitor the link integrity of each software by means [**LICO**](https://github.com/nicolo-tellini/LICO)<sup>1</sup>, **monthly**.
 
 [1] Nicolò, T. (2022). LInk COntroller (LICO) (Version 1.0) [Computer software]. https://github.com/nicolo-tellini/LICO
