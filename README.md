@@ -2,7 +2,7 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-Patch for LRSDAY v1.6 for Debian-based OS.
+Patch for LRSDAY v1.6 © Jia-Xing Yue for Debian-based OS.
 The debugging was performed with **Ubuntu 18.04**.
 
 ### Content
