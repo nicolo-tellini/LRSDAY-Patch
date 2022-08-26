@@ -54,7 +54,7 @@ sudo apt install openjdk-8-jdk
 set java 8 as default: 
 
 ```
-sudo update-alternatives --config java
+sudo update-alternatives --config javac
 ```
 
 type the number corresponding to ```java-8-openjdk-* ```.
