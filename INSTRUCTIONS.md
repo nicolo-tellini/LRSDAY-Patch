@@ -100,7 +100,7 @@ bash installer_LRSDAY_UOS.sh
 ```
 By default, you are going to install all the software listed at the beginning of the installer (suggested if you are not familiar with the pipeline). This behavior can be modified based on errors that may occur along the process. Hence, if you need to repeat the installattion for a group of software, you can change the variable to all the others to "no". The installation time depends on the internet connection and varies between 30 and 50/55 min.
 
-### Step 2B (facultative): Nanopolish
+### Step 2B (optional): Nanopolish
 
 If you want to install nanopolsih you can: 
 1) install it from Ubuntu repos: ```sudo apt-get install nanopolish```;</br>
