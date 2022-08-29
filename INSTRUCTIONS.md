@@ -100,6 +100,17 @@ bash installer_LRSDAY_UOS.sh
 ```
 By default, you are going to install all the software listed at the beginning of the installer (suggested if you are not familiar with the pipeline). This behavior can be modified based on errors that may occur along the process. Hence, if you need to repeat the installattion for a group of software, you can change the variable to all the others to "no". The installation time depends on the internet connection and varies between 30 and 50/55 min.
 
+### Step 2B (facultative): Nanopolish
+
+If you want to install nanopolsih you can: 
+1) install it from Ubuntu repos: ```sudo apt-get install nanopolish```;</br>
+2) manually add ```export nanopolish_dir=/path/to/nanonopolish/bin``` to ```env.sh``` file in LRSDAY home;</br>
+3) to find out where NANOPOLISH binaries are run: ```whereis nanopolish``` (it is usually in ```/usr/bin```);</br>
+4) IMPORTANT: NANOPOLISH from Ubuntu repos is the v0.9.0-1 and not v0.14.0.</br>
+5) You have to check if the options used in the script ```02.Long-read-based_Assembly_Polishing/LRSDAY.02.Long-read-based_Assembly_Polishing.sh``` are compatible with v0.9.0-1.</br>
+6) Nanopolish runs at lines 75-96.</br>
+7) NOTE: you can commnet line 78 and replace ```$nanopolish_dir/scripts``` with ```/usr/lib/nanopolish``` at line 87.</br>
+
 ——
 
 ### Step 3: POST-Installation
