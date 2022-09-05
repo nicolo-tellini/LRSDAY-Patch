@@ -32,7 +32,6 @@ How the *new* installer acts:
 </p>
 
 ### Commitment
-:heavy_check_mark: We are reaching out [Jts](https://github.com/jts) for fixing nanopolish failures.
 
 :heavy_check_mark: We monitor the link integrity of each software by means [**LICO**](https://github.com/nicolo-tellini/LICO)<sup>1</sup>, **monthly**.
 
