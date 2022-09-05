@@ -72,19 +72,7 @@ MEDAKA="yes"
 GNUPLOT="yes"
 MAKER="yes"
 RA="yes"
-
-# NANOPOLISH compilation fails.
-# I am taking contact with the developer.
-# If you really need it you can:
-# 1) install it from Ubuntu repos: "sudo apt-get install nanopolish" ;
-# 2) manually add "export nanopolish_dir=/path/to/nanonopolish/bin" to env.sh file in LRSDAY home;
-# 3) to find out where NANOPOLISH binaries are run: "whereis nanopolish" (most of the times it is in /usr/bin);
-# 4) IMPORTANT: NANOPOLISH from Ubuntu repos is the v0.9.0-1 and not v0.14.0.
-#    You have to check if the options used in the script 02.Long-read-based_Assembly_Polishing/LRSDAY.02.Long-read-based_Assembly_Polishing.sh are compatible with v0.9.0-1.
-#    Nanopolish runs at lines 75-96.
-# 5) NOTE: line 78 needs to be commented and at line 87 you have to replace "$nanopolish_dir/scripts" with "/usr/lib/nanopolish".
-
-NANOPOLISH="no"
+NANOPOLISH="yes"
 
 # ---- INSTALLER BODY ---- #
 
