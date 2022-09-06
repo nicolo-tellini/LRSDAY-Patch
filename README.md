@@ -16,7 +16,7 @@ The debugging was performed with **Ubuntu 18.04**.
 <sup>[note]</sup> the scripts do not significatly change in the content. Only paths and option/function names have been adjusted to meet the requirements of both up and downgraded software. 
  
  Other files:
-- ```SOFTWARECHANGES.md```: a list of up/downgraded software <sup>[note]</sup> ,
+- ```SOFTWARECHANGES_DEBIAN_BASED_OS.md```: a list of up/downgraded software <sup>[note]</sup> ,
 - ```installer_patch_LRSDAY.jpg```: the picture in the README.md,
 - ```LICENSE.md```: the license,
 - ```CITATION.cff```: the citation info.
