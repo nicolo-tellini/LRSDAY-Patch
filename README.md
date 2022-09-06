@@ -11,7 +11,7 @@ The debugging was performed with **Ubuntu 18.04**.
  - ```installer_LRSDAY_UOS.sh```: a redesigned installer that simplify the process of debugging,</br>
  - ```soft```: a dir that contains individual installation scripts for the software and collects ```Log``` and ```Err``` files, </br>
  - ```Project_Template```: a dir that contains the scripts to run LRSDAY modules <sup>[note]</sup>,</br>
- - ```INSTRUCTIONS.md```: a file with the instructions.</br>
+ - ```INSTRUCTIONS_DEBIAN_BASED_OS.md```: a file with the instructions and dependencies.</br>
 
 <sup>[note]</sup> the scripts do not significatly change in the content. Only paths and option/function names have been adjusted to meet the requirements of both up and downgraded software. 
  
