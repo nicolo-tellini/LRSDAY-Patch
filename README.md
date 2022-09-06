@@ -16,12 +16,10 @@ The debugging was performed with **Ubuntu 18.04**.
 <sup>[note]</sup> the scripts do not significatly change in the content. Only paths and option/function names have been adjusted to meet the requirements of both up and downgraded software. 
  
  Other files:
-- ```SOFTWARECHANGES_DEBIAN_BASED_OS.md```: a list of up/downgraded software <sup>[note]</sup> ,
+- ```SOFTWARECHANGES_DEBIAN_BASED_OS.md```: a list of up/downgraded software,
 - ```installer_patch_LRSDAY.jpg```: the picture in the README.md,
 - ```LICENSE.md```: the license,
 - ```CITATION.cff```: the citation info.
-
-<sup>[note]</sup> If you are going to use **nanopolish** consider to take a look to the comments at the beginning of the installer. The compilation of nanopolish fails and, because of this, the installation is skipped by default.  
 
 ### Installer
 
