@@ -112,9 +112,9 @@ grep Exit *
 If you see ```Exit status 0``` you can move to the next step.
 
 ```
-grep Error *
-grep error *
-grep ERROR *
+grep -w Error *
+grep -w error *
+grep -w ERROR *
 ```
 If ```grep``` commands return empty, you are ready to run **LRSDAY** tutorial from the manual!
 
