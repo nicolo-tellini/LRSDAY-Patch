@@ -12,9 +12,9 @@ if [ -z $(check_installed ${gatk3_dir}) ]; then
     mkdir GATK3
     cd GATK3
     wget -nv --no-check-certificate $GATK_DOWNLOAD_URL
-    tar -xf GenomeAnalysisTK-3.0-0-g6bad1c6.tar.bz2
+    tar -xf GenomeAnalysisTK-3.2-2-gec30cee.tar.bz2
     chmod 755 GenomeAnalysisTK.jar
-    rm GenomeAnalysisTK-3.0-0-g6bad1c6.tar.bz2
+    rm GenomeAnalysisTK-3.2-2-gec30cee.tar.bz2
     note_installed ${gatk3_dir}
 fi
 
@@ -23,4 +23,3 @@ cd ${LRSDAY_HOME}
 echo "export gatk3_dir=${gatk3_dir}" >> env.sh
 
 echo "GATK3 DONE!"
-
