@@ -3,7 +3,7 @@ The instructions that follow help to meet the dependencies on Debian-based OS fo
 
 ### Step 0: Download LRSDAY
 
-After the download of [**LRSDAY**](https://github.com/yjx1217/LRSDAY) remove ```Project_Template``` and copy the content of **LRSDAY-Debian-based-OS** inside LRSDAY folder.</br>
+After the download of [**LRSDAY**](https://github.com/yjx1217/LRSDAY) remove ```Project_Template``` and copy the content of **LRSDAY-Patch** inside LRSDAY folder.</br>
 
 ——
 
