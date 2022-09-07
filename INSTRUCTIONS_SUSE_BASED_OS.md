@@ -1,3 +1,4 @@
+# OpenSUSE and SUSE Linux Enterprise (zypper)
 [**LRSDAY**](https://github.com/yjx1217/LRSDAY) performes chromosome-level end-to-end genome assembly and comprehensive annotations for *Saccharomyces* yeasts.
 The instructions that follow help to meet the dependencies on SUSE-based OS for [**LRSDAY v.1.6**](https://github.com/yjx1217/LRSDAY/releases/tag/v1.6.0). </br>
 
