@@ -116,7 +116,7 @@ By default, you are going to install all the software listed at the beginning of
 
 ### Step 2b: MAKER
 
-Move in ```LRSDAY/soft/Err``` and run ```grep DBD *```; if ```install_maker.err: * DBD::Pg is not installed``` install maker manually, find all the steps in ```LRSDAY/soft/install_maker.sh```. Remind to run ```./Build installdeps``` before ```./Build install```.
+Move in ```LRSDAY/soft/Err``` and run ```grep DBD *```; if ```install_maker.err: * DBD::Pg is not installed``` install maker manually, find all the steps in ```LRSDAY/soft/install_maker.sh```. Remind to run ```./Build installdeps``` and follow the indications for a local installation of the dependecies before running ```./Build install```.
 
 ### Step 3: POST-Installation
 
