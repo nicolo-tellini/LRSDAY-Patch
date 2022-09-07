@@ -10,6 +10,7 @@ source ${LRSDAY_HOME}/soft/common.sh
 # If you run the installer on debian based OS SUSE="no"
 SUSE="no"
 
+# Software
 # yes: install
 # no: do not install
 
