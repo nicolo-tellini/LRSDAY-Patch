@@ -99,7 +99,7 @@ zlib and zlib-dev
 Edit ```installer_LRSDAY_UOS.sh```, set ```SUSE="yes"``` and run the command: 
 
 ```
-bash installer_LRSDAY_UOS.sh
+bash installer_patch.sh
 ```
 By default, you are going to install all the software listed at the beginning of the installer (suggested if you are not familiar with the pipeline). This behavior can be modified based on errors that may occur along the process. Hence, if you need to repeat the installattion for a group of software, you can change the variable to all the others to "no". The installation time depends on the internet connection and varies between 30 and 50/55 min.
 
@@ -107,8 +107,7 @@ By default, you are going to install all the software listed at the beginning of
 
 ### Step 2b: MAKER
 
-Move in ```LRSDAY/soft/Err``` and run ```grep DBD *```; if ```install_maker.err: * DBD::Pg is not installed``` install maker manually
-you find all the steps in ```LRSDAY/soft/install_maker.sh```. Rimind to run ```./Build installdeps``` before ```./Build install```../Build installdeps
+Move in ```LRSDAY/soft/Err``` and run ```grep DBD *```; if ```install_maker.err: * DBD::Pg is not installed``` install maker manually, find all the steps in ```LRSDAY/soft/install_maker.sh```. Rimind to run ```./Build installdeps``` before ```./Build install```.
 
 ### Step 3: POST-Installation
 
