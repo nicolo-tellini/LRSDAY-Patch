@@ -18,6 +18,7 @@ The debugging was performed with Ubuntu 18.04 and OpenSUSE Leap 15.4.
  
  Other files:
 - ```SOFTWARECHANGES_DEBIAN_BASED_OS.md```: a list of up/downgraded software,
+- ```SOFTWARECHANGES_SUSE_BASED_OS.md```: a list of up/downgraded software,
 - ```installer_patch_LRSDAY.jpg```: the picture in the README.md,
 - ```LICENSE.md```: the license,
 - ```CITATION.cff```: the citation info.
