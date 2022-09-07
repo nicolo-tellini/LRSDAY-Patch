@@ -29,6 +29,8 @@ How the *new* installer acts:
   <img src="https://github.com/nicolo-tellini/LRSDAY-UbuntuOS/blob/main/installer_patch_LRSDAY.jpg" />
 </p>
 
+If you install on SUSE please edit ```installer_patch.sh``` and change ```SUSE="no"``` in ```SUSE="yes"```.
+
 ### Commitment
 
 :heavy_check_mark: We monitor the link integrity of each software by means [**LICO**](https://github.com/nicolo-tellini/LICO)<sup>1</sup>, **monthly**.
