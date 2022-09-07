@@ -133,7 +133,7 @@ grep error *
 grep ERROR *
 ```
 If ```grep``` commands return empty, you are ready to run **LRSDAY** tutorial from the manual!</br>
-**NOTE**: some software may return compilation errors that are not fatal. Only running the pipeline we can understand if it is necessary to look back at the installation of the software. 
+**NOTE**: some software may return compilation errors that are not fatal. Only running the pipeline we can understand if it is necessary to repeat/correct the installation of the software. 
 
 ——
 
