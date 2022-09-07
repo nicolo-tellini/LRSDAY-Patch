@@ -8,7 +8,7 @@ After the download of [**LRSDAY**](https://github.com/yjx1217/LRSDAY) remove ```
 ——
 
 ### Step 1: PRE-installation
-The following dependecies have been tested on a virgin virtual copy of OpenSUSE Leap 15.4. They represent the minimum indispensable dependecies to successfully install the pipeline. Please, consider if you want to change the repositories to fit with your Leap version.
+The following dependecies have been tested on a virgin virtual copy of OpenSUSE Leap 15.4. They represent the minimum indispensable dependecies to successfully install the pipeline. Please, consider if you want to change the repositories according with your Leap version.
 In order to complete the installation of **LRSDAY** install the following packages:
 
 ```
@@ -23,6 +23,14 @@ zypper refresh
 zypper install perl-BioPerl
 ```
 
+Additional repos for BioPerl: https://download.opensuse.org/repositories/devel:/languages:/perl/ .</br>
+If the repo does not work you can try different mirrors.</br>
+Example (for Leap 15.0): </br>
+- click on https://download.opensuse.org/repositories/devel:/languages:/perl/; 
+- enter in ```/openSUSE_Leap_15.0/``` and click on ```Details``` in the column ```Metadata```;
+- pick a different mirror.
+
+
 General packages: 
 
 ```
@@ -36,6 +44,7 @@ sudo zypper addrepo https://download.opensuse.org/repositories/devel:/languages:
 zypper refresh
 zypper install python3
 ```
+Additional repos for Python3: https://download.opensuse.org/repositories/devel:/languages:/python/
 
 The *"build essential"* for SUSE OS:
 
@@ -107,7 +116,7 @@ By default, you are going to install all the software listed at the beginning of
 
 ### Step 2b: MAKER
 
-Move in ```LRSDAY/soft/Err``` and run ```grep DBD *```; if ```install_maker.err: * DBD::Pg is not installed``` install maker manually, find all the steps in ```LRSDAY/soft/install_maker.sh```. Rimind to run ```./Build installdeps``` before ```./Build install```.
+Move in ```LRSDAY/soft/Err``` and run ```grep DBD *```; if ```install_maker.err: * DBD::Pg is not installed``` install maker manually, find all the steps in ```LRSDAY/soft/install_maker.sh```. Remind to run ```./Build installdeps``` before ```./Build install```.
 
 ### Step 3: POST-Installation
 
