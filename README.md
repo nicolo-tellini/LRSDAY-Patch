@@ -1,17 +1,18 @@
-# LRSDAY Debian-based OS
+# LRSDAY Patch
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 Patch for LRSDAY v1.6 © Jia-Xing Yue for Debian-based OS.
-The debugging was performed with **Ubuntu 18.04**.
+The debugging was performed with **Ubuntu 18.04** and OpenSUSE Leap 15.4.
 
 ### Content
 :open_file_folder: :
 
- - ```installer_LRSDAY_UOS.sh```: a redesigned installer that simplify the process of debugging,</br>
+ - ```installer_patch.sh```: a redesigned installer that simplify the process of debugging,</br>
  - ```soft```: a dir that contains individual installation scripts for the software and collects ```Log``` and ```Err``` files, </br>
  - ```Project_Template```: a dir that contains the scripts to run LRSDAY modules <sup>[note]</sup>,</br>
- - ```INSTRUCTIONS_DEBIAN_BASED_OS.md```: a file with the instructions and dependencies.</br>
+ - ```INSTRUCTIONS_DEBIAN_BASED_OS.md```: a file with the instructions and dependencies,</br>
+ - ```INSTRUCTIONS_SUSE_BASED_OS.md```: a file with the instructions and dependencies.</br>
 
 <sup>[note]</sup> the scripts do not significatly change in the content. Only paths and option/function names have been adjusted to meet the requirements of both up and downgraded software. 
  
