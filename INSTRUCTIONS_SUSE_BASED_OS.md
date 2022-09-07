@@ -15,7 +15,7 @@ In order to complete the installation of **LRSDAY** install the following packag
  sudo zypper install cmake make gcc git zlib-devel libbz2-devel libz1
 ```
 
-Then:
+**Bioperl**:
 
 ```
 zypper addrepo https://mirror-jp.firstyear.id.au/repositories/devel:/languages:/perl/openSUSE_Leap_15.2/devel:languages:perl.repo
@@ -23,13 +23,13 @@ zypper refresh
 zypper install perl-BioPerl
 ```
 
-Then: 
+General packages: 
 
 ```
 sudo zypper install perl-Text-Soundex liblzma5 pkg-config autoconf hdf5-devel postgresql-devel libpqxx
 ```
 
-Python3, 
+**Python3**: 
 
 ```
 sudo zypper addrepo https://download.opensuse.org/repositories/devel:/languages:/python/15.4/devel:languages:python.repo
@@ -37,13 +37,13 @@ zypper refresh
 zypper install python3
 ```
 
-The "build essential" for SUSE OS:
+The *"build essential"* for SUSE OS:
 
 ```
 sudo zypper install -t pattern devel_basis
 ```
 
-Then:
+Additional general packages:
 
 ```
 sudo zypper install curl libcurl-devel libcurl4 lzma-devel
@@ -96,7 +96,7 @@ zlib and zlib-dev
 
 ### Step 2: Installation
 
-Edit ```installer_LRSDAY_UOS.sh```, set ```SUSE="yes"``` and run the command: 
+Edit ```installer_patch.sh```, set ```SUSE="yes"``` and run the command: 
 
 ```
 bash installer_patch.sh
@@ -124,6 +124,7 @@ grep -w error *
 grep -w ERROR *
 ```
 If ```grep``` commands return empty, you are ready to run **LRSDAY** tutorial from the manual!
+**NOTE**: some software may return compilation errors that are not fatal. Only running the pipeline we can understand if it is necessary to look back at the installation of the software. 
 
 ——
 
