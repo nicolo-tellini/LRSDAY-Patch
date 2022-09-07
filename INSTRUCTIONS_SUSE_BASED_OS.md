@@ -119,11 +119,11 @@ grep Exit *
 If you see ```Exit status 0``` you can move to the next step.
 
 ```
-grep -w Error *
-grep -w error *
-grep -w ERROR *
+grep Error *
+grep error *
+grep ERROR *
 ```
-If ```grep``` commands return empty, you are ready to run **LRSDAY** tutorial from the manual!
+If ```grep``` commands return empty, you are ready to run **LRSDAY** tutorial from the manual!</br>
 **NOTE**: some software may return compilation errors that are not fatal. Only running the pipeline we can understand if it is necessary to look back at the installation of the software. 
 
 ——
