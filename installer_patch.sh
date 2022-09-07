@@ -6,6 +6,8 @@ source ${LRSDAY_HOME}/soft/common.sh
 
 # ---- SOFTWARE LIST ---- #
 
+# OS
+# If you run the installer on debian based OS SUSE="no"
 SUSE="no"
 
 # yes: install
