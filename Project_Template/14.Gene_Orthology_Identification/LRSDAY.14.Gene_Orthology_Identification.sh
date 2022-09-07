@@ -50,7 +50,7 @@ then
     cp $query_nuclear_gene_PoFF_gff query.nuclear_gene.PoFF.gff
     output_nuclear_gene_gff="$prefix.nuclear_gene.orthology_map.gff3"
     proteinortho_nuclear_gene_input="query.nuclear_gene.PoFF.faa ref.PoFF.faa"
-    perl $proteinortho_dir/proteinortho6.pl -cpus=$threads -p=blastp -singles -synteny -project="${prefix}_nuclear_gene" $proteinortho_nuclear_gene_input  
+    perl $proteinortho_dir/proteinortho6.pl -cpus=$threads -p=blastp -binpath=$diamond_dir -singles -synteny -project="${prefix}_nuclear_gene" $proteinortho_nuclear_gene_input  
     perl $LRSDAY_HOME/scripts/update_gff3_by_proteinortho.pl -i $input_nuclear_gene_gff -x ${prefix}_nuclear_gene.poff.tsv -r ref.PoFF.faa -q query.nuclear_gene.PoFF.faa -o $prefix.nuclear_gene.updated.gff3
 
     #if [[ $debug == "no" ]]
@@ -72,7 +72,7 @@ then
     cp $query_mitochondrial_gene_PoFF_gff query.mitochondrial_gene.PoFF.gff
     output_mitochondrial_gene_gff="$prefix.mitochondrial_gene.orthology_map.gff3"
     proteinortho_mitochondrial_gene_input="query.mitochondrial_gene.PoFF.faa ref.PoFF.faa"
-    perl $proteinortho_dir/proteinortho6.pl -cpus=$threads -p=blastp -singles -synteny -project="${prefix}_mitochondrial_gene"  $proteinortho_mitochondrial_gene_input  
+    perl $proteinortho_dir/proteinortho6.pl -cpus=$threads -p=blastp -binpath=$diamond_dir -singles -synteny -project="${prefix}_mitochondrial_gene"  $proteinortho_mitochondrial_gene_input  
     perl $LRSDAY_HOME/scripts/update_gff3_by_proteinortho.pl -i $input_mitochondrial_gene_gff -x ${prefix}_mitochondrial_gene.poff.tsv -r ref.PoFF.faa -q query.mitochondrial_gene.PoFF.faa -o $prefix.mitochondrial_gene.updated.gff3
 
     #if [[ $debug == "no" ]]
