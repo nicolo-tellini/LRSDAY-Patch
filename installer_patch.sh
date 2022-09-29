@@ -702,7 +702,7 @@ if [ $TRF == "yes" ]
 then
 
 TRF_VERSION="409"
-TRF_DOWNLOAD_URL="http://tandem.bu.edu/trf/downloads/trf${TRF_VERSION}.linux64"
+TRF_DOWNLOAD_URL="https://github.com/Benson-Genomics-Lab/TRF/releases/download/v4.09/trf${TRF_VERSION}.linux64"
 
 /usr/bin/time -v bash ${LRSDAY_HOME}/soft/install_trf.sh ${TRF_VERSION} ${TRF_DOWNLOAD_URL} > ${LRSDAY_HOME}/soft/Log/install_trf.log 2> ${LRSDAY_HOME}/soft/Err/install_trf.err
 
