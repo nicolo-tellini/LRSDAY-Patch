@@ -39,8 +39,6 @@ If you install on SUSE please edit ```installer_patch.sh``` and change ```SUSE="
 
 [1] Nicolò, T. (2022). LInk COntroller (LICO) (Version 1.0) [Computer software]. https://github.com/nicolo-tellini/LICO
 
-:heavy_check_mark: We have been testing LRSDAY on OpenSUSE Leap 15.4 (SUSE), stay tuned.
-
 ### Citation 
 
 :page_facing_up: Please, if you use this patch cite this GitHub repo along with [LRSDAY](https://github.com/yjx1217/LRSDAY#citations).
