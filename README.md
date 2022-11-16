@@ -5,7 +5,7 @@
 Patch for LRSDAY v1.6 © Jia-Xing Yue for Debian-based OS.
 The debugging was performed with Ubuntu 18.04 and OpenSUSE Leap 15.4.
 
-[HTML]( https://htmlpreview.github.io/?https://github.com/nicolo-tellini/LRSDAY-Patch/blob/main/example.html)
+[HTML](https://htmlpreview.github.io/?https://github.com/nicolo-tellini/LRSDAY-Patch/blob/main/example.html)
 
 ### Content
 :open_file_folder: :
