@@ -76,7 +76,7 @@ CAP3="yes"
 MEDAKA="yes"
 GNUPLOT="yes"
 MAKER="yes"
-RA="yes"
+RA="no"
 NANOPOLISH="yes"
 
 # ---- INSTALLER BODY ---- #
