@@ -98,7 +98,7 @@ zlib and zlib-dev (sudo apt install zlib1g zlib1g-dev)
 
 run the command: 
 ```
-bash installer_LRSDAY_UOS.sh
+bash installer_patch.sh
 ```
 By default, you are going to install all the software listed at the beginning of the installer (suggested if you are not familiar with the pipeline). This behavior can be modified based on errors that may occur along the process. Hence, if you need to repeat the installattion for a group of software, you can change the variable to all the others to "no". The installation time depends on the internet connection and varies between 30 and 50/55 min.
 
