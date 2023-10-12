@@ -66,21 +66,6 @@ sudo zypper install java-1_8_0-openjdk
 ```
 NOTE: starting from LRSDAY v.1.7.2 the path to java can be specified directly inside env.sh file.
 
-set java 8 as default: 
-
-```
-sudo update-alternatives --config java
-```
-
-type the number corresponding to ```jre-1.8.0-openjdk```.
-
-run ``` java -version``` to visualize the change:
-
-```
-openjdk version "1.8.0_345"
-[troncated output]
-```
-
 In addition, you have to meet the dependecies indicated in [prerequisites](https://github.com/yjx1217/LRSDAY/blob/master/prerequisite.txt).</br>
 Sotware with [S] are already provided with the installation of OpenSUSE. 
 
@@ -98,9 +83,9 @@ perl v5.12 or newer [S]
 python v2.7 [S] 3.6 [S] 3.8 
 python-devel
 python3-devel
-tar [U]
-unzip [U]
-wget [U]
+tar [S]
+unzip [S]
+wget [S]
 zlib and zlib-devel
 ```
 ——
