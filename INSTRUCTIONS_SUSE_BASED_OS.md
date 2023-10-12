@@ -95,12 +95,12 @@ gzip [S]
 java runtime environment (JRE) v1.8.0 
 perl v5.12 or newer [S]
 python v2.7 [S] 3.6 [S] 3.8 
-python-dev
-python3-dev
+python-devel
+python3-devel
 tar [U]
 unzip [U]
 wget [U]
-zlib and zlib-dev
+zlib and zlib-devel
 ```
 ——
 
