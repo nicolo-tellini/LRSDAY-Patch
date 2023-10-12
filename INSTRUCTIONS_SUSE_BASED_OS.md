@@ -64,6 +64,7 @@ Install ```java 8``` for **GATK3**:
 ```
 sudo zypper install java-1_8_0-openjdk
 ```
+NOTE: starting from LRSDAY v.1.7.2 the path to java can be specified directly inside env.sh file.
 
 set java 8 as default: 
 
